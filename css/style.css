@@ -3,19 +3,35 @@ html {
 }
 
 body {
-    font-family: Verdana, sans-serif;
+    font-family: Georgia, serif;
+    line-height: 1.75;
 }
 
 h1 {
     font: 400 2.5rem "Julius Sans One", Verdana, sans-serif;
+    color: olivedrab;
+    text-shadow: .1em .1em .05em gainsboro;
+}
+
+h1, h2, #info {
+    text-align: center;
 }
 
 h2 {
     font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    color: cadetblue;
+}
+
+h2 + p {
+    text-align: center;
+    font-style: italic;
 }
 
 dt {
     font-weight: bold;
+    color: olivedrab;
 }
 
 strong {
